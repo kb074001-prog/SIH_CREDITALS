@@ -1,5 +1,16 @@
 🌲 SafeForest — Multi-Hazard Forest Monitoring & CAP Alert System
 📌 Overview
+1. Open the project folder
+cd C:\Users\<username>\Desktop\SIH
+2. Create a virtual environment
+py -m venv venv
+3. Install dependencies
+.\venv\Scripts\python.exe -m pip install -r requirements.txt
+▶️ Run the Project
+
+Start the FastAPI server:
+
+.\venv\Scripts\python.exe -m uvicorn main:app --reload
 
 SafeForest is a multi-hazard forest monitoring and early-warning prototype designed to monitor environmental conditions and identify potential hazards such as forest fire, air pollution, and gas leakage.
 
