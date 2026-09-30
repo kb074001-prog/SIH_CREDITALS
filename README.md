@@ -292,7 +292,7 @@ and updates the displayed monitoring values.
 📁 Project Folder Structure
 
 Use the following structure for the current project:
-
+```
 SIH/
 │
 ├── main.py
@@ -309,6 +309,8 @@ SIH/
 │
 └── venv/
     └── Python virtual environment
+```
+```
 File Description
 File/Folder	Description
 main.py	FastAPI backend and API endpoints
@@ -319,6 +321,7 @@ static/style.css	Website styling
 static/app.js	Dashboard and API JavaScript
 cap_alerts/	Generated CAP alert files
 venv/	Python virtual environment
+```
 🛠️ Technologies Used
 Hardware
 ESP32
